@@ -46,7 +46,10 @@
 
 ## :dart: About ##
 
-This project was made for MITxPro web developer certification. This is a simple bank application with no security, no login, you can create en account, deposit and withdraw virtual money, with a list of accounts data and transactions.
+This project was made for MITxPro web developer certification. This is a simple bank React application build with Javascript, node,js, you can create en account, deposit and withdraw virtual money, with a list of accounts data and transactions. Next steps are working on the login, authentication and authentication, and a database
+
+## :dart: Screenshots ##
+![Screenshot](public/create-account.jpg)
 
 ## :sparkles: Features ##
 
@@ -58,7 +61,6 @@ This project was made for MITxPro web developer certification. This is a simple 
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 
@@ -77,13 +79,14 @@ $ git clone https://github.com/agusroig/bad-bank-project
 $ cd bad-bank-project
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
+
 
 ## :memo: License ##
 
