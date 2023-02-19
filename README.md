@@ -49,7 +49,7 @@
 This project was made for MITxPro web developer certification. This is a simple bank React application build with Javascript, node,js, you can create en account, deposit and withdraw virtual money, with a list of accounts data and transactions. Next steps are working on the login, authentication and authentication, and a database
 
 ## :dart: Screenshots ##
-![Screenshot](public/create-account.jpg)
+![Screenshot](create-account.jpg)
 
 ## :sparkles: Features ##
 
