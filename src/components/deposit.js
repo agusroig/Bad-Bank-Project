@@ -3,8 +3,8 @@ import Card, { UserContext } from "./context";
 import Alert from 'react-bootstrap/Alert';
 
 function Deposit(){
-  const [ balance, setBalance ] = useState();
-  const { user, transaction, setTransaction } = useContext(UserContext);
+  const [ setBalance ] = useState();
+  const { user, transaction } = useContext(UserContext);
   const [show, setShow]         = useState(true);
   const [deposit, setDeposit]   = useState('');
   const [status, setStatus]     = useState('');

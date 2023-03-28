@@ -3,7 +3,7 @@ import Card, { UserContext } from "./context";
 import Alert from 'react-bootstrap/Alert';
 
 function Withdraw(){
-    const [ balance, setBalance ] = useState();
+    const [ setBalance ] = useState();
     const { user, transaction } = useContext(UserContext);
     const [show, setShow]         = useState(true);
     const [withdraw, setWithdraw]   = useState('');

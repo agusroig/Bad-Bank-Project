@@ -9,7 +9,7 @@ function CreateAccount(){
   const [email, setEmail]       = useState('');
   const [password, setPassword] = useState('');
   const [isEnable, setIsEnable] = useState('');
-  const {user, setUser}         = useContext(UserContext);
+  const {user}         = useContext(UserContext);
 
 
   function validate(field, label){
